@@ -39,7 +39,7 @@ The task is episodic, and in order to solve the environment, the agent was requi
 All the training was done on a Udacity Workspace. In order to do your own training using my [Training Jupyter Notebook](Training.ipynb) you will need to run it in the same environment. The workspace uses an old version of the Unity ML-Agents - v0.4 - that includes the BananaCollecter brain.
 
 ### Local Setup
-In order to see my [Results](Results.ipynb), [Report](Report.ipnyb) and discussion about [Deep Q-Learning](Deep Q-Learning.ipynb) you need only install the following packages from PyPi:
+In order to see my [Results](Results.ipynb), [Report](Report.ipnyb) and discussion about [Deep Q-Learning](Deep_Q-Learning.ipynb) you need only install the following packages from PyPi:
 
 * numpy
 * matplotlib
