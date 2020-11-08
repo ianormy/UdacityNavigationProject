@@ -1,9 +1,10 @@
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
+[image2]: https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png "Kernel"
 
 # Navigation Project
-### Introduction
+## Introduction
 
 This is my Navigation project for the [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
 
@@ -21,7 +22,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, the agent was required to get an average score of +13 over 100 consecutive episodes.
 
-### Getting Started
+## Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
@@ -33,12 +34,9 @@ The task is episodic, and in order to solve the environment, the agent was requi
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in this GitHub repository and unzip (or decompress) the file. 
+2. Place the file in this GitHub repository and unzip (or decompress) the file.
 
-## Setup
-All the training was done on a Udacity Workspace. In order to do your own training using my [Training Jupyter Notebook](Training.ipynb) you will need to run it in the same environment. The workspace uses an old version of the Unity ML-Agents - v0.4 - that includes the BananaCollecter brain.
-
-## Dependencies
+### Dependencies
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
@@ -61,8 +59,9 @@ To set up your python environment to run the code in this repository, follow the
 	
 3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
 ```bash
-git clone https://github.com/udacity/deep-reinforcement-learning.git
-cd deep-reinforcement-learning/python
+git clone https://github.com/ianormy/UdacityNavigationProject.git
+cd UdacityNavigationProject
+cd python
 pip install .
 ```
 
